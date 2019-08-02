@@ -1,0 +1,20 @@
+{
+  "name": "casaone",
+  "version": "1.0.0",
+  "description": "Rating system for casaone",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hassan Imam",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "mongoose": "^5.6.7",
+    "morgan": "^1.9.1"
+  }
+}
